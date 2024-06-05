@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #081b29;
+    color: white;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background-color: rgba(87, 4, 241, 0.63);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 25px;
+    color: azure;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.navbar a {
+    font-size: 18px;
+    color: azure;
+    text-decoration: none;
+    font-weight: 700;
+    padding: 10px;
+    transition: 0.5s;
+}
+
+.navbar a:hover,
+.navbar a.active {
+    color: blueviolet;
+}
+
+.home {
+    height: 115vh;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+    background-image: url("bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.home-content {
+
+    max-width: 600px;
+}
+
+.home-content h1 {
+    font-size: 56px;
+    font-weight: 700;
+}
+
+.home-content h3 {
+    font-size: 30px;
+    font-weight: 700;
+    color: blueviolet;
+}
+
+.home-content .btn-box {
+    width: 345px;
+    height: 50px;
+    margin-top: 20px;
+}
+
+.btn-box a {
+    display: inline-flex;
+    justify-content: center;
+    width: 150px;
+    height: 100%;
+    background: blueviolet;
+    border: 2px solid blueviolet;
+    border-radius: 30px;
+    font-size: 19px;
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+    align-items: center;
+
+}
+
+.btn-box a:hover {
+    background-color: transparent;
+    color: blueviolet;
+    transition: 0.5s;
+}
+
+.home-sci {
+    position: absolute;
+    bottom: 40px;
+    width: 170px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.home-sci a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid blueviolet;
+    border-radius: 50%;
+    font-size: 20px;
+    color: blueviolet;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.home-sci a:hover {
+    background-color: blueviolet;
+    color: #081b29;
+}

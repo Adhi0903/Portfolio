@@ -1,0 +1,225 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    justify-content: center;
+    align-items: center;
+    background-color: #081b29;
+    color: white;
+
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background-color: rgba(86, 14, 114, 0.322);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 25px;
+    color: azure;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.navbar a {
+    font-size: 18px;
+    color: azure;
+    text-decoration: none;
+    font-weight: 700;
+    padding: 10px;
+    transition: 0.5s;
+}
+
+.navbar a:hover,
+.navbar a.active {
+    color: blueviolet;
+}
+
+.contacts h2 {
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 100px;
+
+}
+
+.contacts form {
+    width: 600px;
+    text-align: center;
+    align-items: center;
+    margin-left: 380px;
+
+}
+
+form .input-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.input-box .input-field {
+    width: 48%;
+
+}
+
+.field .item {
+    width: 100%;
+    padding: 18px;
+    background: transparent;
+    border: 2px solid blueviolet;
+    outline: none;
+    border-radius: 6px;
+    font-size: 16px;
+    color: white;
+    margin: 12px 0;
+}
+
+.field .item::placeholder {
+    color: rgba(255, 255, 255, .3);
+}
+
+.field .error-txt {
+    font-size: 14.5px;
+    color: red;
+    text-align: left;
+    margin: -5px 0 10px;
+    display: none;
+
+}
+
+form button {
+    display: inline-flex;
+    justify-content: center;
+    width: 150px;
+    height: 100%;
+    background: blueviolet;
+    border: 2px solid blueviolet;
+    border-radius: 30px;
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+    align-items: center;
+    padding: 10px 0;
+    box-shadow: 0 0 10px blueviolet;
+
+
+}
+
+form button:hover {
+    background-color: transparent;
+    color: blueviolet;
+    transition: 0.5s;
+}
+
+.about {
+    height: 100vh;
+    width: 100%;
+    background: url("About.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 100px;
+
+}
+
+.about h2.about-head {
+    text-align: center;
+    font-size: 40px;
+}
+
+.about-content {
+    display: inline;
+
+}
+
+.about-content .about-bio {
+    margin-left: 50%;
+    width: 500px;
+    height: 350px;
+    margin-top: 40px;
+    background-color: #424d554f;
+    border-radius: 20px;
+    padding: 18px;
+
+}
+
+.about-content .about-bio h2 {
+    margin: 10px 10px;
+    font-size: 28px;
+}
+
+.about-content .about-bio h3 {
+    margin: 10px 10px;
+    font-size: 18px;
+    color: aqua;
+}
+
+.about-content .about-bio h4 {
+    margin: 10px 10px;
+    font-size: 16px;
+    color: rgb(172, 179, 179);
+}
+
+.about-content .about-bio h4.skills {
+    margin: 10px 10px;
+    font-size: 18px;
+    font-weight: 700;
+    color: rgb(228, 130, 18);
+}
+
+.about-content .about-bio h1.skill {
+    margin: 10px 10px;
+    font-size: 40px;
+}
+
+
+.projects {
+    background-color: #131116;
+
+}
+
+.projects h3.proj-head {
+    text-align: center;
+    font-size: 40px;
+}
+
+.projects .project-field {
+    margin-left: 10%;
+    width: 1100px;
+    height: 350px;
+    margin-top: 40px;
+    background-color: #424d554f;
+    border-radius: 20px;
+    padding: 18px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.projects .project-field img {
+    border-radius: 20px;
+    margin-top: 30px;
+}
+
+.projects .project-field .contents-amazon {
+    text-align: center;
+}
+
+.projects .project-field .contents-waste {
+    text-align: center;
+}
